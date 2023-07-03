@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="app, landing, corporate, Creative, Html Template, Template"
+    />
+    <meta name="author" content="web-themes" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1"
+    />
+
+    <!-- title -->
+    <title>OLINEA</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon" />
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/helper.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body class="loop_body">
+    <div id="preloader">
+      <div class="loader-content"></div>
+    </div>
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+      <img src="img/preloader.gif" alt="" loop="infinite" />
+    </div> -->
+
+    <!--========== Header area ===========-->
+    <header class="site_header">
+      <div class="container container_lg">
+        <button class="menu_btn">
+          <img src="img/menu-icon.svg" alt="" />Menu
+        </button>
+        <a href="index.html" class="site_logo"
+          ><img src="img/logo.svg" alt="" class="w-100"
+        /></a>
+        <button class="cart_btn">
+          <img src="img/fi_shopping-cart.svg" alt="" />Cart (1)
+        </button>
+      </div>
+
+      <!-- menu modal -->
+      <div class="menu_modal">
+        <div class="menu_modal_overlay"></div>
+        <div class="menu_modal_body">
+          <div class="container container_lg">
+            <div class="menu_modal_top">
+              <button class="close_btn menu_close">
+                <img src="img/close.svg" alt="" />Close
+              </button>
+              <button class="cart_btn">
+                <img src="img/fi_shopping-cart.svg" alt="" />Cart (1)
+              </button>
+            </div>
+            <ul class="main_menu pt_40 pb_80">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Shop</a></li>
+              <br />
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <div class="menu_modal_bottom">
+              <a href="#">Terms & Conditions</a>
+              <div class="lang_select_wrap pl_85">
+                <p>Switch language:</p>
+                <div>
+                  <input
+                    type="radio"
+                    class="lang_box"
+                    id="fr_lang"
+                    name="lang_box"
+                    checked
+                  />
+                  <label for="fr_lang">FR</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="lang_box"
+                    id="de_lang"
+                    name="lang_box"
+                  />
+                  <label for="de_lang">DE</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    class="lang_box"
+                    id="en_lang"
+                    name="lang_box"
+                  />
+                  <label for="en_lang">EN</label>
+                </div>
+              </div>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- cart modal -->
+      <div class="cart_modal">
+        <div class="cart_modal_overlay"></div>
+        <div class="cart_modal_body">
+          <div class="text-end">
+            <button class="close_btn cart_close">
+              <img src="img/close.svg" alt="" />Close
+            </button>
+          </div>
+          <h3 class="title_md pt_40 pb_45">Literie conçue par vous</h3>
+          <div class="cart_item_box_wrap">
+            <div class="cart_item_box">
+              <img src="img/cart-pd1.png" alt="" />
+              <div>
+                <h4>Fourre de duvet</h4>
+                <ul>
+                  <li class="bicolor">Bicolor</li>
+                  <li>160x210</li>
+                  <li>x1</li>
+                </ul>
+              </div>
+              <button class="cart_remove">Remove</button>
+            </div>
+            <div class="cart_item_box">
+              <img src="img/cart-pd2.png" alt="" />
+              <div>
+                <h4>Taie d’oreiller</h4>
+                <ul>
+                  <li>50x70</li>
+                  <li>x2</li>
+                </ul>
+              </div>
+              <button class="cart_remove">Remove</button>
+            </div>
+            <div class="cart_item_box">
+              <img src="img/cart-pd3.png" alt="" />
+              <div>
+                <h4>Drap housse avec élastique</h4>
+                <ul>
+                  <li>160 x 200 x 30</li>
+                  <li>x1</li>
+                </ul>
+              </div>
+              <button class="cart_remove">Remove</button>
+            </div>
+          </div>
+          <div class="subtotel">
+            <p>Subtotal</p>
+            <h3 class="title_md">1700 Eur</h3>
+          </div>
+          <div class="cart_modal_bottom text-center">
+            <a href="#" class="button w-100 mb_25">Continue to checkout</a>
+            <a href="#" class="link">Continue shopping</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!--========== Hero area ===========-->
+      <div class="hero_area">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-7">
+              <h1 class="title_xl position-relative">
+                Bienvenue dans l'univers d'Olinea, <br class="d-md-none" />où le
+                linge de lit sur mesure en lin vous transporte vers un havre de
+                douceur et d'élégance.
+              </h1>
+            </div>
+            <div class="col-lg-5">
+              <p class="text_lg text-uppercase pl_20">
+                Nous croyons en l’importance d’unebonne nuit de sommeil et
+                proposons des draps dequalité exceptionnelle.
+              </p>
+            </div>
+          </div>
+          <div class="row pt_85">
+            <div class="col-lg-6">
+              <img class="hero_img1 mt_15" src="img/h-img1.png" alt="" />
+            </div>
+            <div class="col-lg-5">
+              <div class="row">
+                <div class="col-12 order-2 order-lg-1">
+                  <img class="hero_img2" src="img/h-img2.png" alt="" />
+                </div>
+                <div class="col-12 order-1 order-lg-2">
+                  <p class="text1" data-aos="fade">
+                    Chaque collection a son propre thème distinctif, reflétant
+                    différents styles et atmosphères. <br class="d-block" /><br
+                      class="d-block"
+                    />
+                    Que vouscherchiez l'élégance raffinée, l'esprit bohème ou le
+                    design contemporain, nos collections saurontinspirer votre
+                    créativité et
+                    <br />
+                    vous permettronsde transformer votre chambre en un véritable
+                    <br />
+                    chef-d'œuvre de confort et de style.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== product 1 area ===========-->
+      <div class="product1_area">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-5">
+              <div class="card1 jarallax" data-jarallax-element="-100">
+                <img src="img/h-img3.png" alt="" data-aos="fade" />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Istoria</a>
+                  <p>
+                    Le blanc symbolise la pureté, la clarté et la<br />
+                    tranquillité. Les points ajourés ajoutent une touche<br />
+                    d'élégance et de subtilité, accordent un lien avec<br />
+                    la délicatesse des souvenirs qui se tissent au fil<br />
+                    dutemps.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="card2">
+                <img
+                  class="img1"
+                  src="img/h-img4.png"
+                  alt=""
+                  data-aos="fade"
+                  data-aos-offset="0"
+                />
+                <div>
+                  <div class="img2" data-aos="fade">
+                    <img
+                      class="w-100 jarallax"
+                      src="img/h-img5.png"
+                      alt=""
+                      data-jarallax-element="-70"
+                    />
+                  </div>
+                  <div data-aos="fade">
+                    <p class="text_sm pt_18">Collection</p>
+                    <a href="#" class="title_md link mb_15">Fantasia</a>
+                    <p>
+                      Le beige est une couleur neutrequi favorise la relaxation
+                      et la sérénité. Associé au design à<br />
+                      carreaux, il apporte une dimension visuelle intéressante
+                      en restant discrète. Elle crée une atmosphère de cocooning
+                      et de sécurité, et offre<br />
+                      une sensation de tranquillité et de douceur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+              <div class="card3 position-relative d-inline-block mt_95 ml_20">
+                <img class="img1" src="img/h-img6.png" alt="" data-aos="fade" />
+                <div class="img2" data-aos="fade">
+                  <img
+                    src="img/h-img7.png"
+                    alt=""
+                    class="jarallax w-100"
+                    data-jarallax-element="-70"
+                  />
+                </div>
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Elefteria</a>
+                  <p>
+                    Couleur denim apporte une touche de simplicité et<br />
+                    d'élégance et crée un équilibre entre confort et<br />
+                    style.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card4 ml_50 jarallax" data-jarallax-element="-100">
+                <img class="img1" src="img/h-img8.png" alt="" data-aos="fade" />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Ichos</a>
+                  <p>
+                    Cette combinaison de couleurs blanc à <br />rayuresbleu gris
+                    crée une symphonie visuelle.<br />
+                    C'est un appelà exprimer sa passion musicale et à
+                    transformer chaque nuit en une expérience harmonieuse
+                    etinspirante.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== authentique area ===========-->
+      <div class="authentique_area">
+        <div class="left_space">
+          <div
+            class="row g-0 justify-content-between align-items-lg-end align-items-center"
+          >
+            <div class="col-lg-4 col-md-7 col-9 mb_30">
+              <div class="authentique_content">
+                <a href="#" class="title_md mb_40 link">Authentique</a>
+                <p>
+                  Le lin est unematière noble, le choix du luxe et de la beauté.
+                  <br class="d-block" /><br class="d-block" />
+                  Au toucher comme à la vue, sa texturenaturelle confère à votre
+                  chambre à coucher une ambiance unique, une élégance
+                  indémodable etune sensation de douceur incomparable.
+                </p>
+              </div>
+            </div>
+
+            <div class="racesWrapper">
+              <div class="races">
+                <div class="slideImg">
+                  <img class="img" src="img/h-img9.png" alt="" />
+                </div>
+                <div class="slideImg">
+                  <img class="img" src="img/h-img10.png" alt="" />
+                </div>
+                <div class="slideImg">
+                  <img class="img" src="img/h-img9.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== product 2 area ===========-->
+      <div class="product2_area">
+        <div class="container">
+          <div class="card_lg">
+            <div class="position-relative" data-aos="fade">
+              <img
+                class="img1 jarallax"
+                data-jarallax-element="-60"
+                src="img/h-img11.png"
+                alt=""
+              />
+              <div class="img2">
+                <img
+                  class="w-100 jarallax"
+                  src="img/h-img12.png"
+                  alt=""
+                  data-jarallax-element="-120"
+                />
+              </div>
+            </div>
+            <div data-aos="fade">
+              <p class="text_sm pt_30">Collection</p>
+              <a href="#" class="title_md link mb_15">Migla</a>
+              <p>
+                La brume qui s’accrochait auxflancs des<br />
+                montagnes soudain s’écarte, et laisse voir unciel<br />
+                infini, la promesse d’un jour heureux.
+              </p>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-lg-5 order-2 order-lg-1">
+              <div class="card1 jarallax" data-jarallax-element="-100">
+                <img src="img/h-img13.png" alt="" data-aos="fade" />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Freskada</a>
+                  <p>
+                    Une étendue devant soi, l’océan qu’on regarde<br />
+                    longuement onduler. Une invitation à laprofondeur,<br />
+                    d’où vibre une lueur pâle.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 order-1 order-lg-2">
+              <div class="card2">
+                <img
+                  class="img1"
+                  src="img/h-img14.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div>
+                  <div class="img2" data-aos="fade">
+                    <img
+                      class="w-100 jarallax"
+                      src="img/h-img15.png"
+                      alt=""
+                      data-jarallax-element="-100"
+                    />
+                  </div>
+                  <div data-aos="fade">
+                    <p class="text_sm pt_18">Collection</p>
+                    <a href="#" class="title_md link mb_15">Dentro</a>
+                    <p>
+                      Se délasser dans la douce quiétude d’une journée<br />
+                      qui se termine. Et s’abandonner à lasensation<br />
+                      d’une rêverie naissante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 offset-lg-5 order-3">
+              <div class="card3 position-relative d-inline-block mt_25">
+                <img class="img1" src="img/h-img6.png" alt="" data-aos="fade" />
+                <div class="img2" data-aos="fade">
+                  <img
+                    class="w-100 jarallax"
+                    src="img/h-img7.png"
+                    alt=""
+                    data-jarallax-element="-100"
+                  />
+                </div>
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">O Ilios</a>
+                  <p>
+                    Un matin de printemps ensoleillé, une brise tiède<br />
+                    qui caresse lesfleurs des prés et vientbercer votre<br />
+                    sieste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container container_lg">
+          <div class="card5">
+            <div class="jarallax jarallax_img_box">
+              <img class="jarallax-img" src="img/h-img16.png" alt="" />
+            </div>
+            <div data-aos="fade">
+              <p class="text_sm pt_18">Collection</p>
+              <a href="#" class="title_md link mb_15">Emeis</a>
+              <p>
+                Le luxe d’une matière qui n’a pas besoin<br />
+                d’ornement pour combler. Le luxe intégral d’unlit<br />
+                tissé de la nature même. Le luxe de n’être plus que<br />
+                nous deux.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 offset-lg-1">
+              <div class="card3 card3_2 position-relative d-inline-block ml_20">
+                <img
+                  class="img2"
+                  src="img/h-img18.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div class="jarallax" data-jarallax-element="-100">
+                  <img
+                    class="img1"
+                    src="img/h-img17.png"
+                    alt=""
+                    data-aos="fade"
+                  />
+                  <div data-aos="fade">
+                    <p class="text_sm pt_18">Collection</p>
+                    <a href="#" class="title_md link mb_15">Theà</a>
+                    <p>
+                      La légèreté du drapé qui recouvre une statue de<br />
+                      déesse, et qui laisse entrevoir commeen un rêve<br />
+                      l’essence de la beauté.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card4 ml_50 jarallax" data-jarallax-element="-100">
+                <img
+                  class="img1"
+                  src="img/h-img19.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Ichos</a>
+                  <p>
+                    Quelques notes qu’on saisit au réveil, la gaieté d’un<br />
+                    motif qui ne vous quitte plus, et àtout moment<br />
+                    vous fait fredonner.
+                  </p>
+                </div>
+              </div>
+              <div class="card4 ml_50 jarallax" data-jarallax-element="-100">
+                <img
+                  class="img1"
+                  src="img/h-img19.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Ichos</a>
+                  <p>
+                    Quelques notes qu’on saisit au réveil, la gaieté d’un<br />
+                    motif qui ne vous quitte plus, et àtout moment<br />
+                    vous fait fredonner.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== Unique area ===========-->
+      <div class="authentique_area uniqueArea">
+        <div class="left_space">
+          <div class="row g-0 align-items-center justify-content-between">
+            <div class="col-lg-4 col-md-7 col-9 mb_30">
+              <div class="authentique_content">
+                <a href="#" class="title_md mb_40 link">Unique</a>
+                <p>
+                  Vous pouvez spécifiez les coloris et mesures de chaque pièce
+                  de votre parure individuellement.<br
+                    class="d-block d-md-none"
+                  />
+                  <br class="d-block d-md-none" />
+                  Pourles housses de duvet vous avez la possibilité de définir
+                  un coloris différent pour chaque face.
+                </p>
+              </div>
+            </div>
+            <div class="racesWrapper">
+              <div class="unique_slides">
+                <div class="slideImg">
+                  <img class="img" src="img/h-img20.png" alt="" />
+                </div>
+                <div class="slideImg">
+                  <img class="img" src="img/h-img21.png" alt="" />
+                </div>
+                <div class="slideImg">
+                  <img class="img" src="img/h-img20.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== product 3 area ===========-->
+      <div class="product3_area">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-5">
+              <div class="card1 jarallax" data-jarallax-element="-100">
+                <img src="img/h-img22.png" alt="" data-aos="fade" />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Paradeisos</a>
+                  <p>
+                    Quand la vie se fait tendre, que la beauté n’est plus<br />
+                    un rêve. Quand on n’a plus envied’être ailleurs —<br />
+                    qu’on a trouvé le paradis.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="card2">
+                <img
+                  class="img1"
+                  src="img/h-img23.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div>
+                  <div class="img2 jarallax" data-jarallax-element="-100">
+                    <img
+                      class="w-100"
+                      src="img/h-img24.png"
+                      alt=""
+                      data-aos="fade"
+                    />
+                  </div>
+                  <div data-aos="fade">
+                    <p class="text_sm pt_18">Collection</p>
+                    <a href="#" class="title_md link mb_15">Ouranos</a>
+                    <p>
+                      Une douceur qui a la délicatesse de ne pas se<br />
+                      signaler. La discrétion des choses quirecouvrent la vie
+                      avec bienveillance. La couleur d’un ciel apaisé.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container container_lg">
+          <div class="card5">
+            <div class="jarallax jarallax_img_box" data-aos="fade">
+              <img src="img/h-img25.png" class="jarallax-img" alt="" />
+            </div>
+            <div data-aos="fade">
+              <p class="text_sm pt_18">Collection</p>
+              <a href="#" class="title_md link mb_15">Dasos</a>
+              <p>
+                On traverse la forêt — soudain se réveillent les<br />
+                souvenirs de l’enfance, quand couchésur un drap<br />
+                de feuillage on humait l’odeur d'un bonheur<br />
+                sansfin.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 offset-lg-1">
+              <div class="card3 position-relative d-inline-block ml_20">
+                <img
+                  class="img2"
+                  src="img/h-img27.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div class="jarallax" data-jarallax-element="-100">
+                  <img
+                    class="img1"
+                    src="img/h-img26.png"
+                    alt=""
+                    data-aos="fade"
+                  />
+                  <div data-aos="fade">
+                    <p class="text_sm pt_18">Collection</p>
+                    <a href="#" class="title_md link mb_15">Vouno</a>
+                    <p>
+                      Fermez les yeux: entouré d’herbes hautes, adossé<br />
+                      à la montagne qui vous transmet sachaleur, vous<br />
+                      avez la vie devant vous.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card4 ml_50 jarallax" data-jarallax-element="-100">
+                <img
+                  class="img1"
+                  src="img/h-img28.png"
+                  alt=""
+                  data-aos="fade"
+                />
+                <div data-aos="fade">
+                  <p class="text_sm pt_18">Collection</p>
+                  <a href="#" class="title_md link mb_15">Mystiko</a>
+                  <p>
+                    Pour ceux qui, au grand jour et aux passions<br />
+                    affichées, préfèrent le prélassement dansles replis<br />
+                    du mystère.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_lg">
+            <div class="position-relative" data-aos="fade">
+              <img class="img1" src="img/h-img29.png" alt="" />
+              <div class="img2">
+                <img
+                  class="w-100"
+                  src="img/h-img30.png"
+                  alt=""
+                  data-aos="fade"
+                />
+              </div>
+            </div>
+            <div data-aos="fade">
+              <p class="text_sm pt_30">Collection</p>
+              <a href="#" class="title_md link mb_15">Dasos</a>
+              <p>
+                On traverse la forêt — soudain se réveillent les<br />
+                souvenirs de l’enfance, quand couchésur un drap<br />
+                de feuillage on humait l’odeur d'un bonheur<br />
+                sansfin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== Durable area ===========-->
+      <div class="authentique_area durableArea">
+        <div class="left_space">
+          <div class="row g-0 align-items-center justify-content-between">
+            <div class="col-lg-4 col-md-7 col-9 mb_30">
+              <div class="authentique_content">
+                <a href="#" class="title_md mb_40 link">Durable</a>
+                <p>
+                  Grâce à nos traitements brevetés et ànos technologies
+                  innovantes, nous vous offrons une qualité exceptionnelle qui
+                  rend nos parures de lit à la fois douces, résistantes et
+                  faciles à entretenir.<br class="d-block" /><br
+                    class="d-block"
+                  />
+
+                  Notre certification Standard 100 by Oeko-Tex est là pour
+                  attester de notre engagement envers des produits sûrs et
+                  respectueux de l'environnement.
+                </p>
+              </div>
+            </div>
+            <div class="racesWrapper">
+              <div class="durable_slides">
+                <div class="slideImg">
+                  <img class="img" src="img/h-img31.png" alt="" />
+                </div>
+                <div class="slideImg">
+                  <img class="img" src="img/h-img32.png" alt="" />
+                </div>
+                <div class="slideImg">
+                  <img class="img" src="img/h-img31.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--====== BACK TO TOP ======-->
+    <a href="#" class="back-to-top"><img src="img/arrow-up.png" alt="" /></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- for home page scrolling loop start -->
+
+    <script src="js/lenis.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/scrollTrigger.min.js"></script>
+    <script src="js/scroll-loop.js"></script>
+    <!-- for home page scrolling loop end -->
+    <script src="js/main.js"></script>
+
+    <script>
+      // Home page entry animate
+      gsap.from(".hero_area .title_xl", {
+        y: "-500px",
+        delay: 0.5,
+        opacity: 0,
+        duration: 2,
+        ease: "linear",
+      });
+      gsap.from(".hero_area .text_lg", { delay: 1, opacity: 0, duration: 1 });
+      gsap.from(".hero_img1", {
+        y: "700px",
+        delay: 1,
+        duration: 1,
+        ease: "back.out(2)",
+      });
+      gsap.from(".hero_img2", { delay: 1, scale: 1.3, duration: 1 });
+
+      //loader
+      window.addEventListener("load", () => {
+        const loader = document.querySelector("#preloader");
+        loader.style.transition = "transform 1s linear, opacity 1s ease-out";
+        loader.style.transform = "translateX(100%)";
+        loader.style.opacity = "1";
+        loader.style.backgroundColor = "black";
+      });
+
+      const races = document.querySelector(".races");
+      const unique = document.querySelector(".unique_slides");
+      const durable = document.querySelector(".durable_slides");
+
+      function getScrollAmount() {
+        let racesWidth = races.scrollWidth;
+        return -(racesWidth - racesWidth / 3);
+      }
+
+      const tween = gsap.to(races, {
+        x: getScrollAmount,
+        duration: 5,
+        ease: "none",
+      });
+
+      const uniqueAnimation = gsap.to(unique, {
+        x: getScrollAmount,
+        duration: 5,
+        ease: "none",
+      });
+      const durableAnimation = gsap.to(durable, {
+        x: getScrollAmount,
+        duration: 5,
+        ease: "none",
+      });
+
+      ScrollTrigger.create({
+        trigger: ".authentique_area",
+        start: "top 6%",
+        end: () => `+=${getScrollAmount() * -1}`,
+        pin: true,
+        animation: tween,
+        scrub: 1,
+        invalidateOnRefresh: true,
+      });
+
+      ScrollTrigger.create({
+        trigger: ".uniqueArea",
+        start: "top 10%",
+        end: () => `+=${getScrollAmount() * -1}`,
+        pin: true,
+        animation: uniqueAnimation,
+        scrub: 1,
+        invalidateOnRefresh: true,
+      });
+      ScrollTrigger.create({
+        trigger: ".durableArea",
+        start: "top 10%",
+        end: () => `+=${getScrollAmount() * -1}`,
+        pin: true,
+        animation: durableAnimation,
+        scrub: 1,
+        invalidateOnRefresh: true,
+      });
+      window.addEventListener("scroll", function () {
+        // Check if the user has scrolled to the bottom of the page
+        if (
+          window.innerHeight + window.pageYOffset >=
+          document.documentElement.scrollHeight - 10
+        ) {
+          // Scroll to the top of the page
+          window.scrollTo(0, 0);
+        }
+
+        // Check if the user has scrolled to the top of the page
+        if (window.pageYOffset === 0) {
+          // Scroll to the bottom of the page
+          window.scrollTo(0, document.documentElement.scrollHeight);
+        }
+      });
+    </script>
+  </body>
+</html>
