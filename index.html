@@ -850,22 +850,6 @@
         scrub: 1,
         invalidateOnRefresh: true,
       });
-      window.addEventListener("scroll", function () {
-        // Check if the user has scrolled to the bottom of the page
-        if (
-          window.innerHeight + window.pageYOffset >=
-          document.documentElement.scrollHeight - 10
-        ) {
-          // Scroll to the top of the page
-          window.scrollTo(0, 0);
-        }
-
-        // Check if the user has scrolled to the top of the page
-        if (window.pageYOffset === 0) {
-          // Scroll to the bottom of the page
-          window.scrollTo(0, document.documentElement.scrollHeight);
-        }
-      });
     </script>
   </body>
 </html>
